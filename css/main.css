@@ -467,231 +467,70 @@ footer {
     margin: auto;
     padding-top: 30px;
     margin-bottom: 40px;
-
 }
 
-.title-heading-section h3 {
-    margin-top: 25px;
-    font-weight: 400;
-    font-size: 0.5em;
-    text-align: center;
-    line-height: 24px;
+.main-learn-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 3% 0;
 }
 
-.guides-list {
-    max-width: 1500px;
-    margin: 0 auto;
-    border-radius: 15px;
-    box-shadow: 3px 3px 15px #606060;
-    width: 100%;
-    background: linear-gradient(#00bbe6, #0086a5);
-    display: flex;
-    justify-content: center;
+.guide-list-section {
+  width: 20%;
+  display: inline-block;
+  border-radius: 15px;
+  box-shadow: 2px 2px 15px rgba(150, 150, 150, 0.8);
+  padding: 1%;
+  margin: 1%;
 }
 
-.guide-rectangle {
+.search-box {
+  margin: 0 15%;
+  margin-bottom: 5%;
+  border-radius: 15px;
+  width: 70%;
+  height: 30px;
+}
+
+.info-section {
+  width: 80%;
+  display: block;
+  overflow: auto;
+}
+
+.toplevel-button {
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 2px 2px 15px rgba(150, 150, 150, 0.8);
+  width: 70%;
+  background-color: #00bbe6;
+  color: white;
+  margin: 2.5% 15%;
+  cursor: pointer;
+}
+
+.toplevel-button:focus, .toplevel-button:active,
+.nested-button:focus, .nested-button:active {
+  outline:0;
+}
+
+.nested-button {
+  border: none;
+  display: block;
+  height: 30px;
+  border-radius: 15px;
+  width: 70%;
+  box-shadow: 2px 2px 15px rgba(150, 150, 150, 0.8);
+  margin: 2.5% 15%;
+  cursor: pointer;
+}
+
+.content {
     background-color: white;
-    width: 25%;
-    margin: 12px 10px;
-    border-radius: 15px;
-    box-shadow: 3px 3px 15px #606060;
-    display: inline-block;
-    padding-top: 10px;
-}
-
-::-webkit-scrollbar {
+    overflow: auto;
     display: none;
-}
-
-.guide-card-image {
-    display: block;
-    margin: auto;
-    width: 15%;
-}
-
-.guide-card-title {
-    font-weight: bold;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 1.1em;
-}
-
-.guide-list {
-    margin-left: 20px;
-    margin-top: 30px;
-    margin-right: 20px;
-    word-wrap: break-word;
-}
-
-.guide-list li {
-    margin-bottom: 30px;
-    font-size: 0.95em;
-    display: block;
-    word-wrap: normal;
-}
-
-.guide-list li:hover {
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.guide-list a {
-    color: black;
-}
-
-.tutorials-header {
-    font-weight: bold;
-    max-width: 1200px;
-    width: 100%;
-    font-size: 1.5em;
-    margin: auto;
-}
-
-.tutorials-section {
-    max-width: 1200px;
-    width: 100%;
-    margin: auto;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    padding-left: 10px;
-}
-
-.featured-tutorial {
-    width: 30%;
-    height: 280px;
-    margin-top: 20px;
-    padding: 10px;
-    background: linear-gradient(#00bbe6, #0086a5);
-    box-shadow: 3px 3px 15px #606060;
-    display: inline-block;
-    border-radius: 10px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 60px;
-    margin-right: 20px;
-    white-space: normal;
-}
-
-.featured-tutorial h3 {
-    margin-top: 5px;
-    text-align: left;
-    color: white;
-    font-size: 0.8em;
-}
-
-.featured-tutorial h2 {
-    margin-top: 15px;
-    text-align: left;
-    color: white;
-    font-weight: 500;
-    font-size: 1.3em;
-}
-
-.featured-tutorial img {
-    width: 70%;
-    margin: auto;
-    display: block;
-    margin-top: 20px;
-}
-
-.wenderlich-starter img {
-    width: 50%;
-}
-
-.wenderlich-stencil {
-    background: linear-gradient(forestgreen, darkgreen);
-}
-
-.wenderlich-stencil img {
-    width: 90%;
-    margin-top: 0px;
-}
-
-.food-tracker img {
-    width: 70%;
-}
-
-.community-header {
-    font-weight: bold;
-    max-width: 1200px;
-    width: 100%;
-    font-size: 1.5em;
-    margin: auto;
-}
-
-.community-section {
-    max-width: 1200px;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    white-space: nowrap;
-    margin-bottom: 30px;
-}
-
-.community-item {
-    width: 30%;
-    height: 280px;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #00bbe6;
-    box-shadow: 3px 3px 15px #606060;
-    border-radius: 10px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    margin-right: 20px;
-}
-
-
-.objc-book {
-    background: linear-gradient(rgb(238, 157, 57), rgb(221, 70, 58));
-}
-
-.community-item h3 {
-  margin-top: 5px;
-  text-align: left;
-  color: white;
-  font-size: 0.8em;
-}
-
-.community-item h2 {
-  margin-top: 15px;
-  text-align: left;
-  color: white;
-  font-weight: 500;
-  font-size: 1.3em;
-}
-
-.objc-book p {
-    font-size: 150px;
-    color: white;
-    display: inline-block;
-    margin: 40px -20px 0px -20px;
-}
-
-.hacking-swift {
-/*    background: linear-gradient(#404040, black);*/
-    background-color: black;
-}
-
-.hacking-swift img {
-    width: 110%;
-    position: relative;
-    left: -20px;
-    margin-top: 20px;
-}
-
-.kitura-dawn {
-    background: linear-gradient(#00bbe6, #0086a5);
-}
-
-.kitura-dawn img {
-    width: 90%;
-    position: relative;
-    margin-top: 20px;
 }
 
 /* PACKAGES PAGE */

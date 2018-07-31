@@ -28,125 +28,50 @@
   </header>
 
 <body>
-    <div class="title-heading-section">
-        <h2>LEARN</h2>
-        <div class="decorative-line-fullwidth"></div>
-    </div>
-    <div class="guides-list">
-      <div class="guide-rectangle">
-          <img class="guide-card-image" src="assets/tools.png" alt="Building">
-          <h3 class="guide-card-title">BUILDING</h3>
-          <ul class="guide-list">
-              <li><a href="guides/gettingstarted.html">> GETTING STARTED</a></li>
-              <li><a href="guides/building/linuxbuild.html">> BUILDING FOR LINUX USING A MAC</a></li>
-              <li><a href="guides/building/xcodebuild.html">> BUILDING WITHIN XCODE</a></li>
-              <li><a href="guides/building/testing.html">> TESTING YOUR KITURA APP</a></li>
-              <li><a href="guides/building/metrics.html">> APPLICATION METRICS FOR SWIFT</a></li>
-              <li><a href="guides/building/ssl.html">> ENABLING SSL/TLS</a></li>
-          </ul>
+  <div class="title-heading-section">
+    <h2>LEARN</h2>
+    <div class="decorative-line-fullwidth"></div>
+</div>
+  <section class="main-learn-section">
+    <div class="guide-list-section">
+      <input class="search-box" type="text" placeholder="Search..">
+      <button class="toplevel-button expandable-item" type="button" name="button">Getting Started</button>
+      <div class="content">
+        <button type="button" class="nested-button" name="button">Setting up</button>
+        <button type="button" class="nested-button" name="button">Create a Kitura server</button>
       </div>
-      <div class="guide-rectangle">
-          <img class="guide-card-image" src="assets/terminal.png" alt="Codable Routing">
-          <h3 class="guide-card-title">KITURA CLI</h3>
-          <ul class="guide-list">
-              <li><a href="guides/kituracli/gettingstarted.html">> USING KITURA CREATE</a></li>
-              <!-- <li><a href="guides/kituracli/deploying_cloud.html">> DEPLOYING TO THE CLOUD</a></li> -->
-              <!-- <li><a href="guides/kituracli/docker.html">> USING WITH DOCKER</a></li> -->
-              <li><a href="guides/deploy/starter_deploy_cloudfoundry.html">> DEPLOY USING CLOUD FOUNDRY</a></li>
-              <li><a href="guides/deploy/starter_deploy_kubernetes.html">> DEPLOY USING KUBERNETES AND DOCKER</a></li>
-              <li><a href="guides/kituracli/model_definition.html">> MODEL DEFINITION JSON FILE</a></li>
-              <li><a href="guides/kituracli/layout_reference.html">> GENERATED PROJECT STRUCTURE</a></li>
-              <li><a href="guides/kituracli/ssg_rest.html">> EXPOSING SWIFT SERVER GENERATOR MODELS OVER REST</a></li>
-          </ul>
+      <button type="button" class="toplevel-button" name="button">Add Logging</button>
+      <button type="button" class="toplevel-button" name="button">Add Monitoring</button>
+      <button type="button" class="toplevel-button expandable-item" name="button">Add Routing</button>
+      <div class="content">
+        <button type="button" class="nested-button" name="button">Add Raw routing</button>
+        <button type="button" class="nested-button" name="button">Add Codable routing</button>
       </div>
-        <div class="guide-rectangle">
-            <img class="guide-card-image" src="assets/code.png" alt="Codable Routing">
-            <h3 class="guide-card-title">ROUTING</h3>
-            <ul class="guide-list">
-                <li><a href="guides/routing/codablerouting.html">> CODABLE ROUTING</a></li>
-                <li><a href="guides/routing/specialresponsehandlers.html">> SPECIAL RESPONSE HANDLERS</a></li>
-                <li><a href="guides/routing/custompaths.html">> USING CUSTOM PATHS</a></li>
-                <li><a href=" guides/routing/htmlforms.html">> PARSING HTML FORMS</a></li>
-                <li><a href="guides/middleware/typesafesessions.html">> TYPE-SAFE MIDDLEWARE: SESSIONS</a></li>
-                <li><a href="guides/middleware/typesafehttpbasic.html">> HTTP BASIC AUTHENTICATION</a></li>
-            </ul>
-        </div>
-        <div class="guide-rectangle">
-            <img class="guide-card-image" src="assets/file.png" alt="Templating">
-            <h3 class="guide-card-title">TEMPLATING</h3>
-            <ul class="guide-list">
-              <li><a href="guides/templating/stenciltemplate.html">> USING KITURA-STENCIL</a></li>
-              <li><a href="guides/templating/mustachetemplate.html">> USING KITURA-MUSTACHE</a></li>
-              <li><a href="guides/templating/markdowntemplate.html">> USING KITURA-MARKDOWN</a></li>
-            </ul>
-        </div>
+      <button type="button" class="toplevel-button" name="button">Add iOS Client</button>
+      <button type="button" class="toplevel-button expandable-item" name="button">Work with a Database</button>
+      <div class="content">
+        <button type="button" class="nested-button" name="button">Using MySQL</button>
+        <button type="button" class="nested-button" name="button">Using PostgreSQL</button>
+        <button type="button" class="nested-button" name="button">Using SQLite</button>
+        <button type="button" class="nested-button" name="button">Using ORM</button>
+        <button type="button" class="nested-button" name="button">Using CouchDB</button>
+      </div>
+      <button type="button" class="toplevel-button" name="button">Add Sessions</button>
+      <button type="button" class="toplevel-button" name="button">Add Authentication</button>
+      <button type="button" class="toplevel-button expandable-item" name="button">Create a web application</button>
+      <div class="content">
+        <button type="button" class="nested-button" name="button">Using Stencil</button>
+        <button type="button" class="nested-button" name="button">Using Mustache</button>
+        <button type="button" class="nested-button" name="button">Using Markdown</button>
+        <button type="button" class="nested-button" name="button">Accepting HTML forms</button>
+      </div>
+      <button type="button" class="toplevel-button" name="button">Deploying your project</button>
     </div>
-
-  <div class="button-section learn-button">
-          <button class="button" type="button" name="slack-button" onclick="window.location.href='packages.html#all'"><img class="slack-icon" src="assets/api-icon.png" alt="API Icon">API DOCS</button>
-  </div>
-
-    <div class="tutorials-header">
-        <h2>TUTORIALS</h2>
-        <div class="decorative-line-fullwidth"></div>
-    </div>
-
-    <div class="tutorials-section">
-
-      <a href="https://www.raywenderlich.com/180721/kitura-tutorial-getting-started-with-server-side-swift">
-        <div class="featured-tutorial wenderlich-starter">
-            <h3>David Okun | raywenderlich.com</h3>
-            <h2>Kitura Tutorial: Getting Started with Server Side Swift</h2>
-            <img src="assets/ray-icon.png" alt="Getting Started">
-        </div></a>
-
-      <a href="https://www.raywenderlich.com/181130/kitura-stencil-tutorial-how-to-make-websites-with-swift">
-        <div class="featured-tutorial wenderlich-stencil">
-            <h3>David Okun | raywenderlich.com</h3>
-            <h2>Kitura and Stencil: How to Make Websites with Swift</h2>
-            <img src="assets/wenderlich-hero2.png" alt="Stencil Tutorial">
-        </div>
-      </a>
-
-      <a href="https://github.com/IBM/FoodTrackerBackend">
-        <div class="featured-tutorial food-tracker">
-            <h3>Kitura Team</h3>
-            <h2>Food Tracker: Building a Swift Backend</h2>
-            <img src="assets/FoodTrackerBezel.png" alt="Food Tracker">
-        </div>
-      </a>
-
-      <a href="https://github.com/IBM/ToDoBackend">
-        <div class="featured-tutorial todo-backend">
-            <h3>Kitura Team</h3>
-            <h2>ToDo Backend: Make a Backend server</h2>
-            <img src="assets/TodoBackend.png" alt="ToDo Backend">
-        </div>
-      </a>
+    <div class="info-section">
 
     </div>
-    <div class="community-header">
-        <h2>COMMUNITY AND BOOKS</h2>
-        <div class="decorative-line-fullwidth"></div>
-    </div>
-    <div class="community-section">
-      <a class="community-item hacking-swift" href="https://www.hackingwithswift.com/store/server-side-swift">
-          <h3>Paul Hudson | @TwoStraws</h3>
-          <h2>Server-Side Swift</h2>
-          <img src="assets/Store%20Splash.png" alt="Store Splash">
-      </a>
-      <a class="community-item kitura-dawn" href="https://learnkitura.com/">
-          <h3>Community Book | Nocturnal</h3>
-          <h2>Kitura Until Dawn</h2>
-          <img src="assets/kitura-until-dawn-screengrab.png" alt="Kitura Until Dawn">
-      </a>
-      <a class="community-item objc-book" href="https://www.objc.io/books/functional-swift/">
-          <h3>Books We Love ❤️</h3>
-          <h2>Functional Swift by objc</h2>
-          <p>&uarr;</p>
-          <p>&darr;</p>
-      </a>
-    </div>
+  </section>
+  <script src="scripts/expanding-link.js"></script>
 </body>
 
 <footer>
