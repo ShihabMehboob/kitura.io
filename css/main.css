@@ -477,6 +477,11 @@ footer {
     line-height: 24px;
 }
 
+.title-heading-section h4 {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
 .main-learn-section {
   width: 100%;
   display: flex;
@@ -541,6 +546,86 @@ footer {
     display: none;
 }
 
+.tutorial-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tutorial-card, .community-card {
+  width: 20%;
+  height: 200px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 0 2%;
+  background: linear-gradient(#00bbe6, #0086a5);
+  color: white;
+  box-shadow: 3px 3px 15px #606060;
+  text-align: center;
+}
+
+.tutorial-card img {
+  margin-top: 10px;
+}
+
+.tutorial-card h2, .tutorial-card h3, .community-card h2, .community-card h3 {
+  margin: 10px 0 0 10px;
+  text-align: left;
+}
+
+.tutorial-card h3, .community-card h3 {
+  font-size: 0.8em;
+}
+
+.tutorial-card h2, .community-card h2 {
+  font-size: 1em;
+}
+.wenderlich-starter {
+  width: 50%;
+}
+
+.wenderlich-stencil {
+  width: 90%;
+}
+
+.food-tracker {
+  width: 70%;
+}
+
+.todo-backend {
+  width: 70%;
+}
+
+.community-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hacking-swift {
+  background: black;
+}
+
+.objc-book {
+  background: linear-gradient(rgb(238, 157, 57), rgb(221, 70, 58));
+}
+
+.hacking-swift img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.kitura-dawn img {
+  width: 70%;
+  margin-top: 10px;
+}
+
+.objc-book p {
+    font-size: 100px;
+    color: white;
+    display: inline-block;
+    margin: 40px -10px 0px -10px;
+}
 /* PACKAGES PAGE */
 
 .kitura-core-section {
