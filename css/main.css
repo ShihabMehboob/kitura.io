@@ -469,6 +469,14 @@ footer {
     margin-bottom: 40px;
 }
 
+.title-heading-section h3 {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 0.5em;
+    text-align: center;
+    line-height: 24px;
+}
+
 .main-learn-section {
   width: 100%;
   display: flex;
