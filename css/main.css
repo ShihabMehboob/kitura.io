@@ -492,8 +492,8 @@ footer {
 .guide-list-section {
   width: 20%;
   display: inline-block;
-  border-radius: 15px;
-  box-shadow: 2px 2px 15px rgba(150, 150, 150, 0.8);
+  /* border-radius: 15px;
+  box-shadow: 2px 2px 15px rgba(150, 150, 150, 0.8); */
   padding: 1%;
   margin: 1%;
 }
